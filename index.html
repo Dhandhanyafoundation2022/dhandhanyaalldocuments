@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>🚀 DHANDHANYA GROUP</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0; padding: 0;
+      background: linear-gradient(135deg, #0f0f0f, #232323);
+      color: #fff;
+    }
+    header {
+      background: #111;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+    }
+    header img {
+      height: 70px;
+      vertical-align: middle;
+      margin-right: 15px;
+      border-radius: 10px;
+    }
+    .company-name {
+      font-size: 36px;
+      font-weight: bold;
+      color: #00ffc6;
+      letter-spacing: 2px;
+      text-shadow: 0 0 10px #00ffc6, 0 0 20px #00ffc6;
+      display: block;
+      margin-top: 10px;
+    }
+    .company-address {
+      font-size: 16px;
+      color: #ccc;
+      margin-top: 5px;
+      display: block;
+    }
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 20px;
+    }
+    .search-container {
+      position: relative;
+      margin-bottom: 20px;
+    }
+    input {
+      width: 100%;
+      padding: 15px;
+      border: none;
+      border-radius: 8px;
+      font-size: 18px;
+      outline: none;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    }
+    #suggestions {
+      position: absolute;
+      top: 55px;
+      background: #222;
+      border-radius: 8px;
+      width: 100%;
+      max-height: 180px;
+      overflow-y: auto;
+      z-index: 10;
+    }
+    #suggestions div {
+      padding: 12px;
+      cursor: pointer;
+      border-bottom: 1px solid #333;
+    }
+    #suggestions div:hover {
+      background: #00ffc6;
+      color: #000;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      background: #2c2c2c;
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+    }
+    li:hover {
+      background: #00ffc6;
+      color: #000;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+      font-size: 18px;
+      margin-left: 10px;
+      word-break: break-all;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo" onerror="this.style.display='none'">
+    <span class="company-name">🚀 DHANDHANYA GROUP</span>
+    <span class="company-address">🏢 BB Tower, 2nd Floor, Kargi Road, Opp. Vidhya Vihar Phase 2, Dehradun, Uttarakhand 248001</span>
+  </header>
+  <div class="container">
+    <div class="search-container">
+      <input type="text" id="search" placeholder="Search your files..." onkeyup="filterDocs()">
+      <div id="suggestions"></div>
+    </div>
+    <ul id="doc-list">
+      <li>📕 <a href="docs/AADHAR AMIT SIR.pdf.pdf" target="_blank">AADHAR AMIT SIR.pdf.pdf</a></li>
+      <li>📕 <a href="docs/AADHAR DINESH PRASAD BAHUGUNA SIR.pdf.pdf" target="_blank">AADHAR DINESH PRASAD BAHUGUNA SIR.pdf.pdf</a></li>
+      <li>📕 <a href="docs/Amit ADHAR CARD.pdf.pdf" target="_blank">Amit ADHAR CARD.pdf.pdf</a></li>
+      <li>📕 <a href="docs/Amit Bank Statement.pdf.pdf" target="_blank">Amit Bank Statement.pdf.pdf</a></li>
+      <li>📕 <a href="docs/Amit PAN CARD.pdf.pdf" target="_blank">Amit PAN CARD.pdf.pdf</a></li>
+      <li>📕 <a href="docs/Amit Sir PAN CARD.pdf.pdf" target="_blank">Amit Sir PAN CARD.pdf.pdf</a></li>
+      <li>📕 <a href="docs/AMIT SIR PASSPORT.pdf.pdf" target="_blank">AMIT SIR PASSPORT.pdf.pdf</a></li>
+      <li>📘 <a href="docs/Appraisal Letter.docx" target="_blank">Appraisal Letter.docx</a></li>
+      <li>📘 <a href="docs/ASSESSMENT FORM.doc" target="_blank">ASSESSMENT FORM.doc</a></li>
+      <li>📘 <a href="docs/Assets Letter.docx" target="_blank">Assets Letter.docx</a></li>
+      <li>📕 <a href="docs/Balance sheet foundation 2022-23.pdf.pdf" target="_blank">Balance sheet foundation 2022-23.pdf.pdf</a></li>
+      <li>📕 <a href="docs/Balance sheet foundation 21-22.pdf.pdf" target="_blank">Balance sheet foundation 21-22.pdf.pdf</a></li>
+      <li>📕 <a href="docs/Balance sheet foundation 23-24.pdf.pdf" target="_blank">Balance sheet foundation 23-24.pdf.pdf</a></li>
+      <li>📕 <a href="docs/Balance sheet foundation 23.pdf.pdf" target="_blank">Balance sheet foundation 23.pdf.pdf</a></li>
+      <li>📕 <a href="docs/Balance sheet foundation 24.pdf.pdf" target="_blank">Balance sheet foundation 24.pdf.pdf</a></li>
+      <li>📕 <a href="docs/CSR FORM DMSF.pdf.pdf" target="_blank">CSR FORM DMSF.pdf.pdf</a></li>
+      <li>📘 <a href="docs/Dhandhanya Official Timing Letter.docx" target="_blank">Dhandhanya Official Timing Letter.docx</a></li>
+      <li>📕 <a href="docs/DHANDHNAYA Domestic Travel Entitlement.pdf.pdf" target="_blank">DHANDHNAYA Domestic Travel Entitlement.pdf.pdf</a></li>
+      <li>📕 <a href="docs/DIFIL AOA.pdf" target="_blank">DIFIL AOA.pdf</a></li>
+      <li>📕 <a href="docs/DIFIL COI.pdf" target="_blank">DIFIL COI.pdf</a></li>
+      <li>📕 <a href="docs/DIFIL MOA.pdf" target="_blank">DIFIL MOA.pdf</a></li>
+      <li>📕 <a href="docs/DIFIL PAN16072025.pdf" target="_blank">DIFIL PAN16072025.pdf</a></li>
+      <li>📕 <a href="docs/DIFIL TAN 400073.pdf" target="_blank">DIFIL TAN 400073.pdf</a></li>
+      <li>📕 <a href="docs/dm 2022.pdf.pdf" target="_blank">dm 2022.pdf.pdf</a></li>
+      <li>📕 <a href="docs/dm 2023.pdf.pdf" target="_blank">dm 2023.pdf.pdf</a></li>
+      <li>📕 <a href="docs/DMFL AOA.pdf.pdf" target="_blank">DMFL AOA.pdf.pdf</a></li>
+      <li>📕 <a href="docs/DMFL AUDIT REPORT.pdf.pdf" target="_blank">DMFL AUDIT REPORT.pdf.pdf</a></li>
+      <li>📕 <a href="docs/DMFL Authorized-signatory.pdf.pdf" target="_blank">DMFL Authorized-signatory.pdf.pdf</a></li>
+      <li>📕 <a href="docs/DMFL COI EDIT.pdf.pdf" target="_blank">DMFL COI EDIT.pdf.pdf</a></li>
+      <li>📕 <a href="docs/DMFL COI.pdf.pdf" target="_blank">DMFL COI.pdf.pdf</a></li>
+      <li>📕 <a href="docs/DMFL EMI Chart.pdf.pdf" target="_blank">DMFL EMI Chart.pdf.pdf</a></li>
+      <li>📕 <a href="docs/DMFL GST CERTIFICATE.pdf.pdf" target="_blank">DMFL GST CERTIFICATE.pdf.pdf</a></li>
+      <li>📕 <a href="docs/DMFL Ministry Of Corporate Affairs - MCA Services.pdf.pdf" target="_blank">DMFL Ministry Of Corporate Affairs - MCA Services.pdf.pdf</a></li>
+      <li>📕 <a href="docs/DMFL MOA.pdf.pdf" target="_blank">DMFL MOA.pdf.pdf</a></li>
+      <li>📕 <a href="docs/DMFL PAN CARD.pdf.pdf" target="_blank">DMFL PAN CARD.pdf.pdf</a></li>
+      <li>📕 <a href="docs/DMFL RENT AGRREMENT.pdf.pdf" target="_blank">DMFL RENT AGRREMENT.pdf.pdf</a></li>
+      <li>📕 <a href="docs/DMSF AADHAR.pdf.pdf" target="_blank">DMSF AADHAR.pdf.pdf</a></li>
+      <li>📕 <a href="docs/DMSF AOA.pdf.pdf" target="_blank">DMSF AOA.pdf.pdf</a></li>
+      <li>📕 <a href="docs/DMSF CIN.pdf.pdf" target="_blank">DMSF CIN.pdf.pdf</a></li>
+      <li>📕 <a href="docs/DMSF COI.pdf.pdf" target="_blank">DMSF COI.pdf.pdf</a></li>
+      <li>📕 <a href="docs/DMSF MOA.pdf.pdf" target="_blank">DMSF MOA.pdf.pdf</a></li>
+      <li>📕 <a href="docs/DMSF NGO Darpan.pdf.pdf" target="_blank">DMSF NGO Darpan.pdf.pdf</a></li>
+      <li>📕 <a href="docs/DMSF PAN CARD 02022022.pdf.pdf" target="_blank">DMSF PAN CARD 02022022.pdf.pdf</a></li>
+      <li>📕 <a href="docs/DMSF TAN 248001.pdf.pdf" target="_blank">DMSF TAN 248001.pdf.pdf</a></li>
+      <li>📗 <a href="docs/documents.csv" target="_blank">documents.csv</a></li>
+      <li>📘 <a href="docs/EMPLOYEE  DOCUMENTS to employee.docx" target="_blank">EMPLOYEE  DOCUMENTS to employee.docx</a></li>
+      <li>📘 <a href="docs/EMPLOYEE  DOCUMENTS.docx" target="_blank">EMPLOYEE  DOCUMENTS.docx</a></li>
+      <li>📘 <a href="docs/EVALUATION SHEET.doc" target="_blank">EVALUATION SHEET.doc</a></li>
+      <li>📘 <a href="docs/EXPERIENCE & RELIEVING LETTER-.docx" target="_blank">EXPERIENCE & RELIEVING LETTER-.docx</a></li>
+      <li>📕 <a href="docs/FORM 12A DMSF.pdf.pdf" target="_blank">FORM 12A DMSF.pdf.pdf</a></li>
+      <li>📕 <a href="docs/FORM 80G DMSF.pdf.pdf" target="_blank">FORM 80G DMSF.pdf.pdf</a></li>
+      <li>📘 <a href="docs/Full and Final Settlement Letter.docx" target="_blank">Full and Final Settlement Letter.docx</a></li>
+      <li>📘 <a href="docs/GATE PASS or Out Pass.docx" target="_blank">GATE PASS or Out Pass.docx</a></li>
+      <li>📘 <a href="docs/Holiday Calendar 2024.doc" target="_blank">Holiday Calendar 2024.doc</a></li>
+      <li>📘 <a href="docs/HR Induction programme Form.docx" target="_blank">HR Induction programme Form.docx</a></li>
+      <li>📕 <a href="docs/ITR 23-24 DMSF.pdf.pdf" target="_blank">ITR 23-24 DMSF.pdf.pdf</a></li>
+      <li>📘 <a href="docs/Leave Approval Letter.docx" target="_blank">Leave Approval Letter.docx</a></li>
+      <li>📘 <a href="docs/Letter of Handover Assets.docx" target="_blank">Letter of Handover Assets.docx</a></li>
+      <li>📕 <a href="docs/M BAHUGUNA AND CO AOA.pdf.pdf" target="_blank">M BAHUGUNA AND CO AOA.pdf.pdf</a></li>
+      <li>📕 <a href="docs/M BAHUGUNA AND CO COI.pdf.pdf" target="_blank">M BAHUGUNA AND CO COI.pdf.pdf</a></li>
+      <li>📕 <a href="docs/M BAHUGUNA AND CO MOA.pdf.pdf" target="_blank">M BAHUGUNA AND CO MOA.pdf.pdf</a></li>
+      <li>📕 <a href="docs/M BAHUGUNA AND CO PAN (16122021).pdf.pdf" target="_blank">M BAHUGUNA AND CO PAN (16122021).pdf.pdf</a></li>
+      <li>📕 <a href="docs/M BAHUGUNA AND CO TAN (248001).pdf.pdf" target="_blank">M BAHUGUNA AND CO TAN (248001).pdf.pdf</a></li>
+      <li>📕 <a href="docs/M.BAHUGUNA&CO PVT LTD COI.pdf.pdf" target="_blank">M.BAHUGUNA&CO PVT LTD COI.pdf.pdf</a></li>
+      <li>📕 <a href="docs/M.BAHUGUNA&CO PVT LTD PAN (16122021).pdf.pdf" target="_blank">M.BAHUGUNA&CO PVT LTD PAN (16122021).pdf.pdf</a></li>
+      <li>📕 <a href="docs/M.BAHUGUNA&CO PVT LTD TAN (248001).pdf.pdf" target="_blank">M.BAHUGUNA&CO PVT LTD TAN (248001).pdf.pdf</a></li>
+      <li>📕 <a href="docs/M.BAHUGUNA&CO PVT LTD.AOA.pdf.pdf" target="_blank">M.BAHUGUNA&CO PVT LTD.AOA.pdf.pdf</a></li>
+      <li>📕 <a href="docs/Manisha MAM Adhar Card.pdf.pdf" target="_blank">Manisha MAM Adhar Card.pdf.pdf</a></li>
+      <li>📕 <a href="docs/MANISHA MAM PAN.pdf.pdf" target="_blank">MANISHA MAM PAN.pdf.pdf</a></li>
+      <li>📕 <a href="docs/Manisha MAM Passport.pdf.pdf" target="_blank">Manisha MAM Passport.pdf.pdf</a></li>
+      <li>📕 <a href="docs/MOA.pdf.pdf" target="_blank">MOA.pdf.pdf</a></li>
+      <li>📕 <a href="docs/NEELKANTH MSME Certificate-.pdf.pdf" target="_blank">NEELKANTH MSME Certificate-.pdf.pdf</a></li>
+      <li>📕 <a href="docs/NELKANTH GST Certificate.pdf.pdf" target="_blank">NELKANTH GST Certificate.pdf.pdf</a></li>
+      <li>📘 <a href="docs/New Appointment Letter.docx" target="_blank">New Appointment Letter.docx</a></li>
+      <li>📘 <a href="docs/NEW ASSESSMENT FORM.doc" target="_blank">NEW ASSESSMENT FORM.doc</a></li>
+      <li>📘 <a href="docs/NEW GATE PASS or Out Pass -  merge.docx" target="_blank">NEW GATE PASS or Out Pass -  merge.docx</a></li>
+      <li>📘 <a href="docs/New Increment Letter.docx" target="_blank">New Increment Letter.docx</a></li>
+      <li>📘 <a href="docs/Offer letter.docx" target="_blank">Offer letter.docx</a></li>
+      <li>📘 <a href="docs/Official Call List.docx" target="_blank">Official Call List.docx</a></li>
+      <li>📕 <a href="docs/Pan Card Microfinance.pdf.pdf" target="_blank">Pan Card Microfinance.pdf.pdf</a></li>
+      <li>📘 <a href="docs/Recruitment and Selection policy.doc" target="_blank">Recruitment and Selection policy.doc</a></li>
+      <li>📘 <a href="docs/RENT AGREEMENT format.docx" target="_blank">RENT AGREEMENT format.docx</a></li>
+      <li>📕 <a href="docs/Rent_Agreement_ShopNo4.pdf.pdf" target="_blank">Rent_Agreement_ShopNo4.pdf.pdf</a></li>
+      <li>📘 <a href="docs/Salary Certificate.docx" target="_blank">Salary Certificate.docx</a></li>
+      <li>📘 <a href="docs/Salary Increment letter.docx" target="_blank">Salary Increment letter.docx</a></li>
+      <li>📘 <a href="docs/Termination Letter.docx" target="_blank">Termination Letter.docx</a></li>
+      <li>📘 <a href="docs/Transfer Letter.docx" target="_blank">Transfer Letter.docx</a></li>
+      <li>📘 <a href="docs/Warning Letter.docx" target="_blank">Warning Letter.docx</a></li>
+      <li>📘 <a href="docs/WHAT left in DOCUMENT FILE.docx" target="_blank">WHAT left in DOCUMENT FILE.docx</a></li>
+    </ul>
+  </div>
+  <script>
+    const allFiles = ['AADHAR AMIT SIR.pdf.pdf', 'AADHAR DINESH PRASAD BAHUGUNA SIR.pdf.pdf', 'Amit ADHAR CARD.pdf.pdf', 'Amit Bank Statement.pdf.pdf', 'Amit PAN CARD.pdf.pdf', 'Amit Sir PAN CARD.pdf.pdf', 'AMIT SIR PASSPORT.pdf.pdf', 'Appraisal Letter.docx', 'ASSESSMENT FORM.doc', 'Assets Letter.docx', 'Balance sheet foundation 2022-23.pdf.pdf', 'Balance sheet foundation 21-22.pdf.pdf', 'Balance sheet foundation 23-24.pdf.pdf', 'Balance sheet foundation 23.pdf.pdf', 'Balance sheet foundation 24.pdf.pdf', 'CSR FORM DMSF.pdf.pdf', 'Dhandhanya Official Timing Letter.docx', 'DHANDHNAYA Domestic Travel Entitlement.pdf.pdf', 'DIFIL AOA.pdf', 'DIFIL COI.pdf', 'DIFIL MOA.pdf', 'DIFIL PAN16072025.pdf', 'DIFIL TAN 400073.pdf', 'dm 2022.pdf.pdf', 'dm 2023.pdf.pdf', 'DMFL AOA.pdf.pdf', 'DMFL AUDIT REPORT.pdf.pdf', 'DMFL Authorized-signatory.pdf.pdf', 'DMFL COI EDIT.pdf.pdf', 'DMFL COI.pdf.pdf', 'DMFL EMI Chart.pdf.pdf', 'DMFL GST CERTIFICATE.pdf.pdf', 'DMFL Ministry Of Corporate Affairs - MCA Services.pdf.pdf', 'DMFL MOA.pdf.pdf', 'DMFL PAN CARD.pdf.pdf', 'DMFL RENT AGRREMENT.pdf.pdf', 'DMSF AADHAR.pdf.pdf', 'DMSF AOA.pdf.pdf', 'DMSF CIN.pdf.pdf', 'DMSF COI.pdf.pdf', 'DMSF MOA.pdf.pdf', 'DMSF NGO Darpan.pdf.pdf', 'DMSF PAN CARD 02022022.pdf.pdf', 'DMSF TAN 248001.pdf.pdf', 'documents.csv', 'EMPLOYEE  DOCUMENTS to employee.docx', 'EMPLOYEE  DOCUMENTS.docx', 'EVALUATION SHEET.doc', 'EXPERIENCE & RELIEVING LETTER-.docx', 'FORM 12A DMSF.pdf.pdf', 'FORM 80G DMSF.pdf.pdf', 'Full and Final Settlement Letter.docx', 'GATE PASS or Out Pass.docx', 'Holiday Calendar 2024.doc', 'HR Induction programme Form.docx', 'ITR 23-24 DMSF.pdf.pdf', 'Leave Approval Letter.docx', 'Letter of Handover Assets.docx', 'M BAHUGUNA AND CO AOA.pdf.pdf', 'M BAHUGUNA AND CO COI.pdf.pdf', 'M BAHUGUNA AND CO MOA.pdf.pdf', 'M BAHUGUNA AND CO PAN (16122021).pdf.pdf', 'M BAHUGUNA AND CO TAN (248001).pdf.pdf', 'M.BAHUGUNA&CO PVT LTD COI.pdf.pdf', 'M.BAHUGUNA&CO PVT LTD PAN (16122021).pdf.pdf', 'M.BAHUGUNA&CO PVT LTD TAN (248001).pdf.pdf', 'M.BAHUGUNA&CO PVT LTD.AOA.pdf.pdf', 'Manisha MAM Adhar Card.pdf.pdf', 'MANISHA MAM PAN.pdf.pdf', 'Manisha MAM Passport.pdf.pdf', 'MOA.pdf.pdf', 'NEELKANTH MSME Certificate-.pdf.pdf', 'NELKANTH GST Certificate.pdf.pdf', 'New Appointment Letter.docx', 'NEW ASSESSMENT FORM.doc', 'NEW GATE PASS or Out Pass -  merge.docx', 'New Increment Letter.docx', 'Offer letter.docx', 'Official Call List.docx', 'Pan Card Microfinance.pdf.pdf', 'Recruitment and Selection policy.doc', 'RENT AGREEMENT format.docx', 'Rent_Agreement_ShopNo4.pdf.pdf', 'Salary Certificate.docx', 'Salary Increment letter.docx', 'Termination Letter.docx', 'Transfer Letter.docx', 'Warning Letter.docx', 'WHAT left in DOCUMENT FILE.docx'];
+
+    function filterDocs() {
+      let input = document.getElementById('search').value.toLowerCase();
+      let items = document.querySelectorAll('#doc-list li');
+      let suggestions = document.getElementById('suggestions');
+      suggestions.innerHTML = '';
+
+      items.forEach(item => {
+        let text = item.textContent.toLowerCase();
+        item.style.display = text.includes(input) ? '' : 'none';
+      });
+
+      if (input) {
+        let matched = allFiles.filter(f => f.toLowerCase().includes(input));
+        matched.slice(0, 6).forEach(f => {
+          let div = document.createElement('div');
+          div.textContent = f;
+          div.onclick = () => {
+            document.getElementById('search').value = f;
+            suggestions.innerHTML = '';
+            items.forEach(item => {
+              item.style.display = item.textContent.includes(f) ? '' : 'none';
+            });
+          };
+          suggestions.appendChild(div);
+        });
+      }
+    }
+  </script>
+</body>
+</html>
